@@ -1,0 +1,16 @@
+<div class="content">
+    <div>
+        <h1>Login</h1>
+        <form name="form" (ngSubmit)="onSubmit()" #loginForm="ngForm">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Username" name="username" autofocus [value]="username" [(ngModel)]="localUser.username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" name="password" [value]="password" [(ngModel)]="localUser.password">
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</div>

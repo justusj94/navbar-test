@@ -1,0 +1,30 @@
+nav a {
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+    background-color: gray;
+    color: white;
+    width: 96%;
+    text-align: center;
+    margin:0 auto 2px;
+}
+nav a:hover, nav a:hover.active {
+    background-color: lightgrey;
+}
+nav a.active {
+    background-color: cornflowerblue;
+}
+nav {
+    position: fixed;
+    background-color: aliceblue;
+    display: block;
+    width: 240px;
+    height: 100vh;
+    margin: 0;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+}
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+<nav>
+    <h1>{{name}}</h1>
+    <div *ngFor="let nav of navItems">
+        <a routerLink="{{nav.link}}" routerLinkActive="active">{{nav.name}}</a>
+    </div>
+</nav>
